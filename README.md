@@ -13,4 +13,4 @@ Real Data collected independently &amp; analysed with R for Trenario (https://ww
 ![Image of viz5](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/graph5.jpg)
 ![Image of viz6](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/graph6.jpg)
 ![Image of viz7](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/graph7.jpg)
-![Image of viz7](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/graph8.jpg)
+![Image of viz7](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/CorrMatrixCluster.jpg)
