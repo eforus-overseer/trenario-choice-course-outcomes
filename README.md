@@ -14,3 +14,11 @@ Real Data collected independently &amp; analysed with R for Trenario (https://ww
 ![Image of viz6](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/graph6.jpg)
 ![Image of viz7](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/graph7.jpg)
 ![Image of viz7](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/CorrMatrixCluster.jpg)
+
+---
+
+<!-- demo-lab:start -->
+## Explore this project
+
+[Project page & walkthrough](https://eforus-overseer.github.io/demo-lab/projects/trenario--data-project-in-r/) — Explore the project, its method, and available demos or original artifacts.
+<!-- demo-lab:end -->
