@@ -1,32 +1,48 @@
-# Trenario-DATA-Project-Analysis-with-R
-Real Data collected independently &amp; analysed with R for Trenario (https://www.linkedin.com/company/trenario/)  
+# Trenario: choice, satisfaction, and course outcomes
 
-![Image of avatar3](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/Screen%20Shot%202020-06-23%20at%2015.51.29.jpg)
+An applied econometrics project studying whether letting learners choose a virtual instructor changes their satisfaction and course performance. The analysis was prepared for Trenario with survey and course observations, then explored in R.
 
-![Image of avatar1](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/Screen%20Shot%202020-06-23%20at%2015.53.54.jpg)
-![Image of avatar2](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/Screen%20Shot%202020-06-23%20at%2015.51.48.jpg)
+**[Open the project showcase](https://eforus-overseer.github.io/Trenario--DATA-Project-in-R/)** · **[Browse the source](https://github.com/eforus-overseer/Trenario--DATA-Project-in-R)**
 
-![Image of viz1](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/graph1.jpg)
-![Image of viz2](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/graph2.jpg)
-![Image of viz3](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/graph3.jpg)
-![Image of viz4](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/graph4.jpg)
-![Image of viz5](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/graph5.jpg)
-![Image of viz6](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/graph6.jpg)
-![Image of viz7](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/graph7.jpg)
-![Image of viz7](https://github.com/efipaka/Trenario--DATA-Project-in-R/blob/master/CorrMatrixCluster.jpg)
+## Research question
 
----
+Does giving a learner a choice of virtual instructor affect how satisfied they feel and how well they perform in the course?
 
-<!-- demo-lab:start -->
-## Explore this project
+The study compares a control path (group A, no instructor choice) with a treatment path (group B, instructor choice). It considers repeated cross sections across two periods and uses difference-in-differences, OLS, linear probability, and logistic models.
 
-[Project page & walkthrough](https://eforus-overseer.github.io/demo-lab/projects/trenario--data-project-in-r/) — Explore the project, its method, and available demos or original artifacts.
-<!-- demo-lab:end -->
+## What the analysis found
 
+The original report describes two related results:
 
-<!-- codex-pixel-art -->
-## Pixel art
+- The difference-in-differences specification did not provide a statistically clear treatment effect over time.
+- The choice group was generally more satisfied, and satisfaction moved with the learner's positive sentiment toward the instructor. These patterns are useful signals, but the sample and observational design limit causal claims.
 
-![Pixel art for Trenario--DATA-Project-in-R](assets/pixel-art.svg)
+## Repository layout
 
-A small visual signature for this repository.
+```text
+data/raw/      Source CSV and Excel files used by the analysis
+analysis/      R script with feature engineering and model specifications
+figures/       Published charts, screenshots, and the correlation matrix
+reports/       Final report PDF and editable project archive
+docs/          GitHub Pages showcase
+assets/        Pixel-art repository signature
+```
+
+## Reproduce the analysis
+
+1. Open the repository root in R or RStudio.
+2. Install the packages listed at the top of [`analysis/trenario_analysis.R`](analysis/trenario_analysis.R).
+3. Run the script from the repository root. The script reads [`data/raw/Pdata.csv`](data/raw/Pdata.csv) with a repository-relative path.
+
+The checked-in figures are the original project outputs. The raw files are retained for auditability; inspect their schemas and provenance before using them for new work.
+
+## Outputs
+
+- [`reports/Final Report-Group 5 TP.pdf`](reports/Final%20Report-Group%205%20TP.pdf) — written report
+- [`reports/Group 5 Trenario Project.docx.zip`](reports/Group%205%20Trenario%20Project.docx.zip) — editable report archive
+- [`figures/graph3.jpg`](figures/graph3.jpg) — satisfaction and instructor sentiment
+- [`figures/CorrMatrixCluster.jpg`](figures/CorrMatrixCluster.jpg) — correlation matrix
+
+The repository and showcase were reorganized to keep the analysis readable and to make the project easy to explore without exposing personal contact details.
+
+![Pixel-art project mark](assets/pixel-art.svg)

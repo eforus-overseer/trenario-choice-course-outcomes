@@ -42,9 +42,10 @@ rm(list=ls())
 ######__________________________________________________________________________________________
 
 # Change Directory
-setwd("/Users/EfiPaka/Desktop/Econometrics/Data_Project_Trenario/")
+ # Run from the repository root so the project is portable across machines.
+ # setwd("/path/to/Trenario--DATA-Project-in-R")
 #TrenarioData <- read.csv("Data tech - Data B5 - Test B.csv",1)
-Pdata<-read.csv("Pdata.csv",1)
+Pdata<-read.csv("data/raw/Pdata.csv",1)
 
 #conversion of dates
 Pdata$StartDate <- as.Date(Pdata$StartDate, "%d/%m/%Y ") #time
