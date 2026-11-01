@@ -45,4 +45,4 @@ The checked-in figures are the original project outputs. The raw files are retai
 
 The repository and showcase were reorganized to keep the analysis readable and to make the project easy to explore without exposing personal contact details.
 
-![Pixel-art project mark](assets/pixel-art.svg)
+![Trenario logo](assets/trenario-logo.png)
