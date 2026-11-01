@@ -2,7 +2,7 @@
 
 An applied econometrics project studying whether letting learners choose a virtual instructor changes their satisfaction and course performance. The analysis was prepared for Trenario with survey and course observations, then explored in R.
 
-**[Open the project showcase](https://eforus-overseer.github.io/Trenario--DATA-Project-in-R/)** · **[Browse the source](https://github.com/eforus-overseer/Trenario--DATA-Project-in-R)**
+**[Open the project showcase](https://eforus-overseer.github.io/trenario-choice-course-outcomes/)** · **[Browse the source](https://github.com/eforus-overseer/trenario-choice-course-outcomes)**
 
 ## Research question
 
@@ -45,4 +45,4 @@ The checked-in figures are the original project outputs. The raw files are retai
 
 The repository and showcase were reorganized to keep the analysis readable and to make the project easy to explore without exposing personal contact details.
 
-![Cosmonaut pixel-art project mark](assets/cosmonaut-pixel-art.png)
+![Pixel-art project mark](assets/pixel-art.svg)

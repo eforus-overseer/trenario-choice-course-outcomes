@@ -43,7 +43,7 @@ rm(list=ls())
 
 # Change Directory
  # Run from the repository root so the project is portable across machines.
- # setwd("/path/to/Trenario--DATA-Project-in-R")
+ # setwd("/path/to/trenario-choice-course-outcomes")
 #TrenarioData <- read.csv("Data tech - Data B5 - Test B.csv",1)
 Pdata<-read.csv("data/raw/Pdata.csv",1)
 
