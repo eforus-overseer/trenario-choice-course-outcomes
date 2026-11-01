@@ -22,3 +22,11 @@ Real Data collected independently &amp; analysed with R for Trenario (https://ww
 
 [Project page & walkthrough](https://eforus-overseer.github.io/demo-lab/projects/trenario--data-project-in-r/) — Explore the project, its method, and available demos or original artifacts.
 <!-- demo-lab:end -->
+
+
+<!-- codex-pixel-art -->
+## Pixel art
+
+![Pixel art for Trenario--DATA-Project-in-R](assets/pixel-art.svg)
+
+A small visual signature for this repository.
